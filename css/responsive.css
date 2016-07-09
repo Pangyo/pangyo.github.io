@@ -94,7 +94,7 @@
 	#header .navbar-nav a:first-child{
 		border-top: 1px solid #ddd;
 		margin: 0;
-	} 
+	}
 	#header .navbar-nav li.active a{
 		border-radius:0px;
 	}
@@ -153,7 +153,7 @@
 		font-size: 16px;
 		padding: 10px 18px;
 	}
-	
+
 	.ifarem{
 		padding-top: 45px;
 	}
@@ -184,7 +184,7 @@
 }
 
 /* Landscape phone to portrait tablet */
-@media only screen  (min-width: 768px) and (max-width: 1024px)  {
+@media only screen (min-width: 768px) and (max-width: 1024px) {
 	.carousel-caption {
 		font-size: 16px;
 	}
@@ -242,7 +242,7 @@
 	#header .navbar-nav a:first-child{
 		border-top: 1px solid #ddd;
 		margin: 0;
-	} 
+	}
 	#header .navbar-nav li.active a{
 		border-radius:0px;
 	}
