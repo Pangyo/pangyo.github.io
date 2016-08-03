@@ -8,7 +8,7 @@ layout: default
             <img src="images/slider/1.jpg"/>
         </div><!-- /.head-overlay -->
         <div class="slider-text" style="text-align:left">
-            <div class="slide-inner" style="padding-top:10%">
+            <div class="slide-inner" style="padding-top:10%; padding-left:8%">
                 <h2 class="slider-title">
                   {{ page.title }}
                 </h2>
@@ -22,3 +22,12 @@ layout: default
         </div><!-- /.slider-text -->
     </div><!-- /.head-overlay -->
 </section><!-- /#main-slider -->
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    $("#masthead").removeClass();
+    $("#masthead").addClass("masthead navbar navbar-default navbar-fixed-top bg-change animated");
+  });
+</script>
