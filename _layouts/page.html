@@ -1,14 +1,33 @@
 ---
 layout: default
 ---
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+<section id="main-slider" class="main-slider text-center">
+    <div class="">
+        <div class="">
+            <img src="images/slider/1.jpg"/>
+        </div><!-- /.head-overlay -->
+        <div class="slider-text" style="text-align:left">
+            <div class="slide-inner" style="padding-top:10%; padding-left:8%">
+                <h2 class="slider-title">
+                  {{ page.title }}
+                </h2>
+                <p class="slide-description">
+                  {{ page.description }}
+                </p>
+                <div class="slide-btn-container">
+                    {{ content }}
+                </div><!-- /.slide-btn-container -->
+            </div><!-- /.slide-inner -->
+        </div><!-- /.slider-text -->
+    </div><!-- /.head-overlay -->
+</section><!-- /#main-slider -->
 
-  <div class="post-content">
-    {{ content }}
-  </div>
 
-</article>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    $("#masthead").removeClass();
+    $("#masthead").addClass("masthead navbar navbar-default navbar-fixed-top bg-change animated");
+  });
+</script>
