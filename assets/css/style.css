@@ -224,6 +224,17 @@ button:focus {
 .bg-change .navbar-nav>li>a {
     padding: 15px 20px;
 }
+
+.bg-fixed {
+    background: #333131;
+}
+.bg-fixed .navbar-brand {
+    padding-top: 8px;
+}
+.bg-fixed .navbar-nav>li>a {
+    padding: 15px 20px;
+}
+
 /* 4 ------- Services Section Styles --------*/
 
 .services .section-padding {
@@ -602,6 +613,10 @@ button:focus {
 
 .blog .post-content {
     padding: 22px 15px;
+}
+
+.post-content p {
+  color:black;
 }
 .blog .entry-title {
     font-size: 1em;
@@ -1335,4 +1350,17 @@ footer .widget-title {
 }
 .read-more{
     color: #e74c3c;
+}
+
+.blog-post-content ul {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.blog-post-content li {
+  display:list-item;
 }

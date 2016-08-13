@@ -3,12 +3,9 @@ layout: default
 ---
 
 <section id="main-slider" class="main-slider text-center">
-    <div class="">
-        <div class="">
-            <img src="images/slider/1.jpg"/>
-        </div><!-- /.head-overlay -->
-        <div class="slider-text" style="text-align:left">
-            <div class="slide-inner" style="padding-top:10%; padding-left:8%">
+    <div class="" style="color: #ffffff;background-image:url('/images/slider/1.jpg')">
+        <div class="" style="text-align:left; min-height:800px">
+            <div class="slide-inner container" style="padding-top:10%;">
                 <h2 class="slider-title">
                   {{ page.title }}
                 </h2>
@@ -16,7 +13,7 @@ layout: default
                   {{ page.description }}
                 </p>
                 <div class="slide-btn-container">
-                    {{ content }}
+                  {{ content }}
                 </div><!-- /.slide-btn-container -->
             </div><!-- /.slide-inner -->
         </div><!-- /.slider-text -->
@@ -28,6 +25,7 @@ layout: default
 <script>
   document.addEventListener("DOMContentLoaded", function(event) {
     $("#masthead").removeClass();
-    $("#masthead").addClass("masthead navbar navbar-default navbar-fixed-top bg-change animated");
+    $("#masthead").addClass("masthead navbar navbar-default navbar-fixed-top bg-fixed");
+
   });
 </script>
